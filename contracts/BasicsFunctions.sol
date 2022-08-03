@@ -15,7 +15,7 @@ contract BasicFunctions {
         uint supply;
     }
 
-    mapping(address => Coin) internal myCoin;
+    mapping(address => Coin) internal myCoins;
     
     // function (string memory _var1, int _var2) public view/pure returns(type e.g bool) {}
 
@@ -51,5 +51,18 @@ contract BasicFunctions {
 
         return 9999999;
     }
+
+    //  Update a Mapping
+
+    function addCoin(string memory _name, string memory _symbol, uint _supply) external {
+        myCoins[msg.sender] = Coin(_name, _symbol,_supply);        
+    }
+
+    // function to get a coin from myCoin mapping
+    function getMyCoin() public view returns(Coin memory ) {
+        return myCoins[msg.sender];
+    }
+
+
 
 }
