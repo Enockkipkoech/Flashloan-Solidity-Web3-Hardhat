@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.0+commit.c7dfd78e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "cleanMoney",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/TestContract.sol": "TestContract"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/TestContract.sol": {
+			"keccak256": "0x5c2be9f8d7682acea62ea13bf1eb76dfaea17ced39c3d91eab01704a11eaec87",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://8e3e24d154174b6bb6987928a4560b10ae7b8b2f5990325f78a20e83f936b193",
+				"dweb:/ipfs/QmdeAPzX9poHbh7syHRvpSgyzrPdf3Rf7H2QgUuXdo1ukf"
+			]
+		}
+	},
+	"version": 1
+}
