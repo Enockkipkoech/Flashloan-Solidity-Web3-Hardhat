@@ -33,4 +33,17 @@ contract Basics101 {
 
     // Store a struct in an array
     User[] public users;
+
+    // Mapping
+    mapping(string => string) public accountNameMap;
+
+    // Mapping and structs - Nested Mapping
+    mapping(address => mapping(string => User)) private userNestedMap;
+
+    // Enums
+    enum coinRanking{STRONG, CAUTION, DODGY}
+    coinRanking trustLevel;
+    coinRanking public defaultTrustLevel = coinRanking.CAUTION;
+
+    
 }
